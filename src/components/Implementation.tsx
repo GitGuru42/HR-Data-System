@@ -73,9 +73,6 @@ const Implementation = () => {
         </motion.div>
 
         <div className="relative">
-          {/* Timeline Line */}
-          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-blue-200 to-purple-200 rounded-full"></div>
-
           <div className="space-y-12">
             {steps.map((step, index) => {
               const colors = getColorClasses(step.color);
